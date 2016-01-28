@@ -24,5 +24,4 @@ for line in dim:
     totalPaper += smallArea + surfArea
 
 print(totalPaper)
-print('1586300')
 dim.close()
