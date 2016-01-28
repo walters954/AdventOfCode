@@ -9,7 +9,7 @@ for x in direction:
         floor = floor + 1
     elif x == ')':
         floor -= 1 # == floor - 1
-    
+
     if basementFound == -100 and floor == -1:
         basementFound = count
     count += 1
